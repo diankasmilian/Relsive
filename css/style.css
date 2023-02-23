@@ -67,8 +67,6 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-.menu-item {
-}
 .menu-item:not(:last-child) {
     margin-right: 21px;
 }
@@ -85,11 +83,14 @@ body {
 .main-block {
     position: relative;
 }
+.main-services {
+    margin-top: -111px;
+
+}
 
 /* -------------------------------SECTION 1--------------------------- */
 
-.main-block-container {
-}
+
 .main-block-body {
     padding-top: 184px;
     padding-bottom: 191px;
@@ -144,6 +145,52 @@ width: 100%;
 height: 100%;
 top: 0;
 left: 0;
+}
+
+/* -------------------------------SECTION 2--------------------------- */
+
+.services {
+}
+.services-container {
+}
+.services-body {
+    display: flex;
+    margin: 0 -15px;
+}
+.services-column {
+    padding: 0 15px;
+    flex: 0 1 33.333%;
+    z-index: 3;
+}
+.services-item {
+    height: 100%;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+    padding: 35px;
+}
+.item-service {
+}
+.item-service > *:not(:last-child) {
+    margin-bottom: 10px;
+}
+.item-service-icon {
+}
+.item-service-title {
+    font-weight: 700;
+font-size: 24px;
+line-height: 1.33;
+letter-spacing: 0.1px;
+}
+.item-service-text {
+line-height: 1.43;
+color: var(--second-color);
+}
+.item-service-green {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+.item-service-text-green {
+    color: #fff;
 }
 
 /* -------------------------------FOOTER--------------------------- */
